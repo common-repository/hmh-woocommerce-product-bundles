@@ -1,0 +1,84 @@
+.table_product_bundle{
+	padding				: 5px 20px 5px 10px;
+	.hmh_tr_space>th{
+		margin-left		: 15px;
+		font-weight		: 500;
+		text-align		: left;
+		padding-top		: 15px;
+	}
+	.hmh_tr_space>td{
+		display			: inline-block;
+		padding-top		: 15px;
+	}
+	.hmh_tr_space>td>label{
+		float			: none;
+    	margin			: 5px;
+	}
+	.hmh_tr_space>td>input[type='number']{
+		width			: 100px; 
+		float			: none
+	}
+}
+.hmh_show_limit_item_products{
+	display				: none;
+}
+
+.hmh_checked:before {
+    content				: "\f147";
+    margin				: -3px 0 0 -4px;
+    color				: #1e8cbe;
+}
+.hmh_display_none {
+    display: none;
+}
+.hmh_select{
+	padding-bottom		: 0 !important;
+    margin-bottom		: 0 !important;
+}
+
+td.hmh-product{
+	text-align: center;
+}
+
+td.hmh-quantity{
+	.box-input{
+		margin-left		: 20%;
+		input{
+			text-align	: center;
+			width		: 70%;
+			color		: red;
+		}
+	}
+}
+.hmh-woo-product-bundled-item-image img {
+	max-width: 80px;
+	max-height: 80px;
+}
+.hmh-item-image img {
+	max-width: 40px;
+	max-height: 40px;
+}
+.hmh-title-bundle {
+	margin:0;
+}
+.hmh-btn-add {
+	background: #71a3ff;
+    border: 1px solid #71a3ff;
+    border-radius: 5px;
+    margin-left: 15px !important;
+	color: #fff;
+	padding: 3px 10px;
+}
+.hmh-btn-add:hover{
+	background: #2673ff;
+}
+.remove_bundle{
+	background: #dea3a3;
+    border: 1px solid #dea3a3;
+	border-radius: 5px;
+	color: #fff;
+	padding: 5px;
+}
+.remove_bundle:hover{
+	background: #f57171;
+}
